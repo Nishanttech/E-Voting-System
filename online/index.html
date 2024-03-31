@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="routes/css/stylesheet.css">
+<title>E-voting System</title>
+</head>
+
+<body style=" background-image: url('voting11.jpg');" >
+<center>
+<div id=<"headersection">
+<h1><img src="logo.png" width="40" >E-Voting System</h1>
+</div>  
+<hr>
+<div id="bodysection">
+<form action="../online/routes/api/login.php" method="POST">
+<h2>Login</h2>
+<input type="number" name="mobile" placeholder="enter mobile"><br><br>
+<input type="password" name="password" placeholder="enter password"><br><br>
+<select id="dropbox"name="role">
+<option value="1">Voter</option>
+<option value="2">Group</option>
+</select><br><br>
+<button id="loginbtn" name="loginbtn" type="submit">Login</button><br><br>
+New User? <a href="routes/Register.html">Register here</a><br><br>
+Admin? <a href="admin.html">Admin Login</a>
+</form>
+</div>
+</center>
+</body>
+
+
+
+
+
+</html>

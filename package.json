@@ -1,0 +1,19 @@
+{
+  "name": "e-voting-system",
+  "version": "1.0.0",
+  "description": "Online voting System",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishanttech/E-Voting-System.git"
+  },
+  "author": "NISHANT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishanttech/E-Voting-System/issues"
+  },
+  "homepage": "https://github.com/Nishanttech/E-Voting-System#readme"
+}

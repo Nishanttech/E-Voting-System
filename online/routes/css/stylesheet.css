@@ -1,0 +1,58 @@
+body{
+
+
+background-color:#80878a;
+background-size: cover;
+background-position: center center;
+}
+
+ #headersection{ 
+ padding:5px; 
+} 
+#headersection h1{
+
+  font-family: cursive;  
+}
+input{
+padding:10px;
+border-radius:50px;
+}
+#dropbox{
+  padding:10px;
+border-radius:50px;
+width:13%;
+}
+#backgroundcolourchange .imagecontent{
+  background-image: url("voting11.png");
+  background-color: rgb(158, 9, 9);
+  
+  
+}
+
+#loginbtn{
+    padding:5px;
+    border-radius:50px;
+    background-color:black;
+    color:white;
+    border:5px;
+    cursor:pointer;
+
+}
+.loginbtn:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+  #adminbtn{
+    padding:5px;
+     border-radius:5px;
+     background-color:black;
+     color:white;
+     cursor: pointer;
+
+
+}
+
+
+
+
+

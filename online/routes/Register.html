@@ -1,0 +1,77 @@
+<html>
+<head>
+<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="../routes/css/stylesheet.css">
+<title>E-Voting</title>
+</head>
+<body>
+
+<style>
+#address{
+   width:25%;
+}
+#photo{
+    border:2px solid black;
+    border-radius:30px;
+    padding:5px;
+    width:25%;
+    text-alingn:center;
+}
+#role{
+
+border:2px solid black;
+    border-radius:30px;    
+    padding:5px;
+    width:25%;
+    text-alingn:center;
+}
+#role select{
+border-radius:30px;
+    padding:5px;
+
+}
+
+</style>
+<center>
+<div id="headersection">
+<h1><img src="../logo.png" width="40" >E-Voting System</h1>
+<hr>
+<h3>Registration</h3>
+<form action="../routes/api/register.php" method="POST" enctype="multipart/form-data">
+<input type="text" name="name"placeholder="Enter Name">
+<input type="number" name="mobile"placeholder="Enter Mobile "><br><br>
+<input type="password" name="password"placeholder="password">
+<input type="password" name="cpassword"placeholder="confirm password"><br><br>
+<input id="address" type="text"name="address"placeholder="Address"><br><br>
+<center>
+<div id="photo">
+Upload Image:<input type="file"name="photo">
+</div>
+<br>
+<div id="role">
+
+Select Your Role:<select name="role"><br>
+<option value="1">Voter</option>
+<option value="2">Group</option>
+</select>
+</div>
+</center>
+<br>
+
+<button style="padding:5px;
+    border-radius:5px;
+    background-color:black;
+    color:white;
+    cursor:pointer;"> 
+Register</button><br><br>
+Already User?<a href="../index.html">Login here</a>
+
+</form>
+
+
+</center>
+</body>
+
+
+
+</html>
